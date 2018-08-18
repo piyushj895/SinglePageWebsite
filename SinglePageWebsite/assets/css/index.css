@@ -1,0 +1,373 @@
+::-moz-selection{
+  background: #17202A;
+}
+::selection{
+  background: #17202A;
+  color: #fff;
+}
+
+.text-color2{
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+}
+ #change1{
+  color: #fff;
+}
+/* #change2{
+
+} */
+
+.text-color3{
+  color: #212529!important;
+  font-size: 2em;
+  text-align: center;
+}
+.bg1{
+  background-color: #212529!important;
+}
+
+.navbar .transparent .navbar-inverse .navbar-inner {
+    background-color: rgba(92, 184, 92, 0.8);
+}
+
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #fff;
+}
+.nav-link{
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.text-size{
+font-weight: 900;
+font-size: 3em;
+text-align: center;
+}
+.bg-image{
+  background-image: url(.././images/header.jpg);
+  padding-top: 10rem;
+  padding-bottom: calc(17.5rem - 1px);
+  background-position: center;
+  background-size: cover;
+
+}
+.active{
+  color:red;
+}
+.line{
+border-width: 4px;
+max-width: 50px;
+border-color: #f05f40;
+
+}
+.line1{
+border-width: 4px;
+max-width: 50px;
+border-color: #fff;
+
+}
+
+
+.btn-color{
+
+background:#f05f40;
+border: #f05f40;
+border-radius: 50px;
+color: #fff;
+padding: 0.7em;
+/* position: relative; */
+display: block;
+margin: auto;
+/* width: 50%; */
+
+}
+.btn-color1{
+  border-radius: 50px;
+  padding: 0.7em;
+  display: block;
+  margin: auto;
+
+}
+
+.text1{
+  background-color: #f05f40;
+}
+
+.text2{
+  font-size: 1.7em;
+  text-align: center;
+}
+.text3{
+  color: #17202A;
+  font-size: 1.7em;
+  text-align: center;
+}
+.text4{
+  color: #17202A;
+  font-size: 1.7em;
+  /* text-align: center; */
+}
+.text5{
+  color: #17202A;
+  font-size: 1em;
+  text-align: center;
+}
+
+.text6{
+  color:#212529!important
+}
+
+.text7{
+  text-decoration: none;
+  color: orange;
+}
+.text7:hover{
+  color: orange;
+}
+.font{
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5em;
+  opacity: 0.6;
+}
+.font{
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.2em;
+  opacity: 0.6;
+}
+.font-awesome{
+font-size:4.5em;
+color:#f05f40;
+display: block;
+margin: auto;
+}
+.font-awesome1{
+font-size:3em;
+color:#212529!important;
+display: block;
+margin: auto;
+}
+
+.position{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  visibility: hidden;
+  background: #f05f40;
+  color:#fff;
+  /* opacity: 0.1; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 180px;
+}
+
+
+.position1{
+  font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color:#fff;
+  transform: translate(-50%,-50%);
+  visibility: hidden;
+}
+.image-wrap:hover .position {
+  visibility: visible;
+  opacity: 0.8;
+}
+.bg-light{
+  /* display: none; */
+}
+
+.image-wrap:hover .position1 {
+  visibility: visible;
+  opacity: 0.8;
+}
+/* // Small screens */
+@media only screen {
+
+   } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+  .text-size{
+  font-weight: 1000;
+  font-size: 1.9em;
+  text-align: center;
+  }
+  .bg-image{
+
+    padding-top: 13rem;
+    padding-bottom: calc(17.5rem - 1px);
+    background-position: center;
+    background-size: cover;
+  }
+  .position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    background: #f05f40;
+    /* opacity: 0.1; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 180px;
+  }
+/* .navbar-collapse{
+  background-color: white;
+} */
+/* .bg-color{
+  background: #fff;
+} */
+  .position1{
+    font-size: 1.5em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+
+  }
+  .image-wrap:hover .position {
+    visibility: visible;
+    opacity: 0.8;
+  }
+
+  .image-wrap:hover .position1 {
+    visibility: visible;
+    opacity: 0.8;
+  }
+   } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/* // Medium screens */
+@media only screen and (min-width: 40.063em) {
+  .bg-image{
+
+    padding-top: 18rem;
+    padding-bottom: calc(17.5rem - 1px);
+    background-position: center;
+    background-size: cover;
+  }
+
+   } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .bg-image{
+
+    padding-top: 28rem;
+    padding-bottom: calc(17.5rem - 1px);
+    background-position: center;
+    background-size: cover;
+  }
+  .text-size{
+  font-weight: 1000;
+  font-size: 4em;
+  text-align: center;
+  padding-top: -300px;
+  }
+
+  .position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    background: #f05f40;
+    /* opacity: 0.1; */
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 180px;
+  }
+
+
+  .position1{
+    font-size: 1.5em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+
+  }
+  .image-wrap:hover .position {
+    visibility: visible;
+    opacity: 0.8;
+  }
+
+  .image-wrap:hover .position1 {
+    visibility: visible;
+    opacity: 0.8;
+  }
+
+  } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+  .bg-image{
+
+    padding-top: 23rem;
+    padding-bottom: calc(17.5rem - 1px);
+    background-position: center;
+    background-size: cover;
+  }
+  }
+
+/* // Large screens */
+@media only screen  and (min-width : 1824px){
+  .bg-image{
+
+    padding-top: 16rem;
+    padding-bottom: calc(17.5rem - 1px);
+    background-position: center;
+    background-size: cover;
+  }
+  } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  .bg-image{
+
+    padding-top: 25.6rem;
+    padding-bottom: calc(17.5rem - 1px);
+    background-position: center;
+    background-size: cover;
+  }
+  .text-size{
+  font-weight: 1000;
+  font-size: 6em;
+  text-align: center;
+  }
+   } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+
+   @media (min-width: 992px){
+.bg-image{
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+.text-size{
+font-weight: 1000;
+font-size: 4em;
+text-align: center;
+padding-top: 2.5em;
+
+}
+
+
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 1366px) and (orientation: landscape) webkit-min-device-pixel-ratio: 2) {
+  .text-size{
+  font-weight: 1000;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 4em;
+  }
+}
